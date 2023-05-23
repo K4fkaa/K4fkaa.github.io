@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    background-color: rgb(29, 29, 29);
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+}
+#main{
+    background-color: rgba(255, 255, 255, 0.466);
+    height: 800px;
+    width: 800px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 15px 5px 15px 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+}
+#free{
+    background-color: rgb(135, 255, 135);
+    color: white;
+    font-size: 65px;
+    text-align: center;
+}
+#free>p{
+    top: 50%;
+    transform: translate(0%, -50%);
+    background-color: rgb(135, 255, 135);
+}
+#top{
+    height: 60px;
+    width: 800px;
+    display: flex;
+    border-radius: 20px;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    gap: 10px;
+}
+#top>input{
+    background-color: rgba(255, 255, 255, 0.466);
+    width: 145px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: aliceblue;
+}
+#hide{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    width: 800px;
+    display: block;
+    border-radius: 20px;
+    top: 120px;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+}
+.point{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#pkt{
+    left: -130px;
+    position: relative;
+}
+#cos{
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    padding: 15px 5px 15px 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+#Pytanie{
+    left: -790px;
+    top: 150px;
+}
+#Pytanie, #Pytanie>textarea{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+textarea{
+    background-color: rgba(255, 255, 255, 0.466);
+}
+legend{
+    font-size: 43px;
+    font-weight: bold;
+}
