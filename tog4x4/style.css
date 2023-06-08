@@ -24,8 +24,8 @@
 }
 #cat{
     height: 45px;
-    width: 490px;
-    transform: translate(50%);
+    width: 615px;
+    transform: translate(40%);
     padding-left: 5px;
 }
 #cat>input{
@@ -33,8 +33,10 @@
     background-color: rgba(255, 255, 255, 0.466);
     width: 110px;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 18px;
     color: aliceblue;
+    text-align: center;
+    font-weight: bold;
 }
 
 #pkt{
@@ -84,13 +86,15 @@
     width: 565px;
 }
 #pytanie>p{
-    background-color: rgb(135, 255, 135);
     height: 50px;
     width: 250px;
     font-size: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     border-radius: 30px;
     padding-left: 15px;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: rgb(153, 0, 255);
 }
 #pytanie>textarea{
     background-color: rgba(255, 255, 255, 0.466);
@@ -98,7 +102,9 @@
     width: 550px;
     border-radius: 30px;
     padding-left: 15px;
-
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 .steale{
     float: left;
@@ -106,4 +112,12 @@
     border-radius: 10px;
     width: 180px;
     padding: 5px;
+}
+#red{
+    border-style: solid;
+    border-color: crimson;
+}
+#green{
+    border-style: solid;
+    border-color: lime;
 }
