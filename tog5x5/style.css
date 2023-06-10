@@ -12,6 +12,7 @@
 #left{
     height: 900px;
     width: 900px;
+    padding-top: 45px;
 }
 #mid{
     height: 900px;
@@ -92,7 +93,7 @@
 }
 #pytanie{
     transform: translate(25%,35%);
-    height: 450px;
+    height: 100px;
     width: 565px;
 }
 #pytanie>p{
@@ -117,12 +118,25 @@
     margin-bottom: 15px;
 
 }
+#uploadPreview{
+    background-color: rgba(255, 255, 255, 0.466);
+    height: 300px;
+    width: 550px;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#uploadImage{
+    color: rgb(29, 29, 29);
+}
 .steale{
     float: left;
     margin-right: 20px;
     border-radius: 10px;
     width: 180px;
     padding: 5px;
+    margin-bottom: 15px;
 }
 #red{
     border-style: solid;

@@ -20,3 +20,15 @@ function show(){
         box.style.display = 'block';
     }
 }
+function PreviewImage({target}) {
+    var oFReader = new FileReader();
+    const box = target.parentElement
+    console.log(box)
+    const img = box.querySelector("img#uploadPreview")
+    console.log(img)
+    oFReader.readAsDataURL(target.files[0]);
+
+    oFReader.onload = function (oFREvent) {
+        img.src = oFREvent.target.result;
+    };
+};

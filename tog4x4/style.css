@@ -38,7 +38,18 @@
     text-align: center;
     font-weight: bold;
 }
-
+#uploadPreview{
+    background-color: rgba(255, 255, 255, 0.466);
+    height: 300px;
+    width: 550px;
+    border-radius: 30px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+#uploadImage{
+    color: rgb(29, 29, 29);
+}
 #pkt{
     position: absolute;
     width: 50px;
@@ -82,7 +93,7 @@
 }
 #pytanie{
     transform: translate(25%,35%);
-    height: 450px;
+    height: 100px;
     width: 565px;
 }
 #pytanie>p{
@@ -112,6 +123,7 @@
     border-radius: 10px;
     width: 180px;
     padding: 5px;
+    margin-bottom: 15px;
 }
 #red{
     border-style: solid;
